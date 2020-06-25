@@ -17,6 +17,11 @@
         <li class="nav-item">
           <a class="nav-link">{{ user?.email }}</a>
         </li>
+        <div *ngIf="isAdmin">
+          <li class="nav-item" >
+            <a href="#" class="nav-link" routerLink="/admin">Admin Page</a>
+          </li>
+        </div>
       </ul>
       <ng-template #login>
         <ul class="navbar-nav mx-auto">

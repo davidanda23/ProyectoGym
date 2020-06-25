@@ -1,2 +1,7 @@
 <h1>Hello homePage</h1>
-{{isAdmin}}
+<ng-container *ngIf="isAdmin; else elseTemplate">
+    Tu eres Admin
+</ng-container>
+<ng-template #elseTemplate>
+    Tu no eres Admin
+</ng-template>

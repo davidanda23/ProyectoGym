@@ -17,7 +17,8 @@ const routes: Routes = [
     path: 'verification-email',
     component: SendEmailComponent,
   },
-  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule),canActivate:[CanAdminGuard], },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)},
+  /*"Editor" consultar con el equipo si se debe borrar o dejar en el proyecto*/
   { path: 'editor', loadChildren: () => import('./editor/editor.module').then(m => m.EditorModule),canActivate:[CanEditGuard], },
   { path: 'suscriptor', loadChildren: () => import('./suscriptor/suscriptor.module').then(m => m.SuscriptorModule),canActivate:[CanSuscriptorGuard], }
 ];

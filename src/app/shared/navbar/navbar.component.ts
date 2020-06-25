@@ -13,7 +13,12 @@ export class NavbarComponent {
   public user$: Observable<user> = this.authSvc.afAuth.user;
   constructor(private authSvc: AuthService, private router: Router) { }
 
+  public isAdmin: any = null;
+  public userUid: string = null;
 
+  ngOnInit(): void {
+    this.getCurrentUser();
+  }
   async onLogout(){
     try{
       await this.authSvc.logout();
@@ -23,6 +28,17 @@ export class NavbarComponent {
       console.log(error)
     }
     this.authSvc.logout();
+  }
+
+  getCurrentUser(){
+    this.authSvc.isAuth().subscribe(auth =>{
+      if(auth){
+        this.userUid=auth.uid;
+        this.authSvc.isUserAdmin(this.userUid).subscribe(userRole =>{
+          this.isAdmin = Object.assign({}, userRole.role).hasOwnProperty('admin');
+        })
+      }
+    })
   }
 
 }
