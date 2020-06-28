@@ -12,18 +12,34 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.11",
+<<<<<<< HEAD
+=======
+    "@angular/cdk": "^9.2.4",
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
     "@angular/common": "~9.1.11",
     "@angular/compiler": "~9.1.11",
     "@angular/core": "~9.1.11",
     "@angular/fire": "^6.0.0",
     "@angular/forms": "~9.1.11",
+<<<<<<< HEAD
+=======
+    "@angular/material": "^9.2.4",
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
     "@popperjs/core": "^2.4.2",
     "bootstrap": "^4.5.0",
+<<<<<<< HEAD
     "firebase": "^7.15.4",
     "jquery": "^3.5.1",
+=======
+    "chart.js": "^2.9.3",
+    "firebase": "^7.15.5",
+    "jquery": "^3.5.1",
+    "ng2-charts": "^2.3.2",
+    "ngx-qrcode2": "^9.0.0",
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

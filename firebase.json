@@ -59,6 +59,39 @@
           "destination": "/index.html"
         }
       ]
+<<<<<<< HEAD
+=======
+    },
+    {
+      "target": "login",
+      "public": "dist/login",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "login",
+      "public": "dist/login",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
     }
   ]
 }
