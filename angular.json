@@ -28,10 +28,6 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-=======
-              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
->>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
@@ -101,10 +97,6 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-=======
-              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
->>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
               "src/styles.scss"
             ],
             "scripts": []
