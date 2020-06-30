@@ -65,7 +65,11 @@ export class AuthService extends RoleValidator{
       email: user.email,
       emailVerified: user.emailVerified,
       role: {
+<<<<<<< HEAD
         suscriptor: true
+=======
+        admin: true
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
       }
       
     };

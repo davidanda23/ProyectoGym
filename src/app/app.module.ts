@@ -14,6 +14,7 @@ import { AuthService } from './auth/services/auth.service';
 import { CanEditGuard } from './auth/can-edit.guard';
 import {CanAdminGuard} from './auth/can-admin.guard';
 import {CanSuscriptorGuard} from './auth/can-suscriptor.guard';
+<<<<<<< HEAD
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ComentariosComponent } from './comentarios/comentarios.component';
@@ -32,6 +33,19 @@ import { ClasesComponent } from './clases/clases.component';
 @NgModule({
   declarations: [
     AppComponent, NavbarComponent, SendEmailComponent, ComentariosComponent, ClasesComponent
+=======
+<<<<<<< HEAD
+=======
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {MaterialModule} from './material/material.module';
+
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+
+@NgModule({
+  declarations: [
+    AppComponent, NavbarComponent, SendEmailComponent
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
   ],
   imports: [
     BrowserModule,
@@ -39,6 +53,7 @@ import { ClasesComponent } from './clases/clases.component';
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
+<<<<<<< HEAD
     NgxQRCodeModule,
     NoopAnimationsModule,
     ComentariosRoutingModule,
@@ -46,6 +61,16 @@ import { ClasesComponent } from './clases/clases.component';
     FormsModule
   ],
   providers: [AuthService,CanEditGuard,CanAdminGuard,CanSuscriptorGuard,AngularFirestore],
+=======
+<<<<<<< HEAD
+=======
+    NgxQRCodeModule,
+    NoopAnimationsModule,
+    MaterialModule
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+  ],
+  providers: [AuthService,CanEditGuard,CanAdminGuard,CanSuscriptorGuard],
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
   bootstrap: [AppComponent]
 })
 export class AppModule { }

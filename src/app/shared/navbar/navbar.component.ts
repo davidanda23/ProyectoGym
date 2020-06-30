@@ -19,7 +19,10 @@ export class NavbarComponent {
   ngOnInit(): void {
     this.getCurrentUser();
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
   async onLogout(){
     try{
       await this.authSvc.logout();

@@ -7,8 +7,12 @@ import { auth } from 'firebase';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
+<<<<<<< HEAD
   styleUrls: ['./home.component.scss'],
   //encapsulation: ViewEncapsulation.None
+=======
+  styleUrls: ['./home.component.scss']
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
 })
 export class HomeComponent implements OnInit {
 
