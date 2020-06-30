@@ -12,17 +12,43 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.11",
+<<<<<<< HEAD
     "@angular/cdk": "^9.2.4",
+=======
+<<<<<<< HEAD
+    "@angular/cdk": "^9.2.4",
+=======
+<<<<<<< HEAD
+=======
+    "@angular/cdk": "^9.2.4",
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
     "@angular/common": "~9.1.11",
     "@angular/compiler": "~9.1.11",
     "@angular/core": "~9.1.11",
     "@angular/fire": "^6.0.0",
     "@angular/forms": "~9.1.11",
+<<<<<<< HEAD
     "@angular/material": "^9.2.4",
+=======
+<<<<<<< HEAD
+    "@angular/material": "^9.2.4",
+=======
+<<<<<<< HEAD
+=======
+    "@angular/material": "^9.2.4",
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
     "@popperjs/core": "^2.4.2",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
     "angular2-materialize": "^15.1.10",
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
@@ -33,6 +59,23 @@
     "ngx-qrcode2": "^9.0.0",
     "rxjs": "~6.5.4",
     "sweetalert": "^2.1.2",
+<<<<<<< HEAD
+=======
+=======
+    "bootstrap": "^4.5.0",
+<<<<<<< HEAD
+    "firebase": "^7.15.4",
+    "jquery": "^3.5.1",
+=======
+    "chart.js": "^2.9.3",
+    "firebase": "^7.15.5",
+    "jquery": "^3.5.1",
+    "ng2-charts": "^2.3.2",
+    "ngx-qrcode2": "^9.0.0",
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+    "rxjs": "~6.5.4",
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
@@ -60,6 +103,10 @@
     "fuzzy": "^0.1.3",
     "inquirer": "^6.2.2",
     "inquirer-autocomplete-prompt": "^1.0.1"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.",
   "main": "karma.conf.js",
@@ -74,4 +121,10 @@
     "url": "https://github.com/davidanda23/ProyectoGym/issues"
   },
   "homepage": "https://github.com/davidanda23/ProyectoGym#readme"
+<<<<<<< HEAD
+=======
+=======
+  }
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
 }

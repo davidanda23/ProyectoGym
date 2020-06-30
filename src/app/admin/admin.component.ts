@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ChartDataSets, ChartOptions } from 'chart.js';
 import { Color, BaseChartDirective, Label } from 'ng2-charts';
 import { DataAdminService } from '../services/data-admin.service';
+<<<<<<< HEAD
+=======
+=======
+import { Component, OnInit } from '@angular/core';
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
 
 @Component({
   selector: 'app-admin',
@@ -10,6 +20,10 @@ import { DataAdminService } from '../services/data-admin.service';
 })
 export class AdminComponent implements OnInit {
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
   constructor(private dataApi: DataAdminService) {
     this.dataApi.getAllsubs().subscribe(subs => {
       console.log(subs)
@@ -132,4 +146,14 @@ export class AdminComponent implements OnInit {
 
   
 
+<<<<<<< HEAD
+=======
+=======
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
 }

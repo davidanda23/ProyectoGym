@@ -1,6 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<<<<<<< HEAD
 
   <a class="navbar-brand" href="/"><img src="../../../assets/gym.png" alt="" width="100px" height="100px" ></a>
+=======
+<<<<<<< HEAD
+
+  <a class="navbar-brand" href="/"><img src="../../../assets/gym.png" alt="" width="100px" height="100px" ></a>
+=======
+    <a class="navbar-brand" href="\">LoginAPP</a>
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,6 +17,10 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           <a class="nav-link" routerLink="/home"><h1>Gimnasio Olímpico de Pabe</h1></a>
         </li>
         <li class="nav-item active">
@@ -16,10 +29,30 @@
         <li class="nav-item active">
           <a class="nav-link" routerLink="/contacto"><h2>Contacto</h2></a>
         </li> 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+      </ul>
+=======
+          <a class="nav-link" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/contacto">Contacto</a>
+        </li>
+         
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
       </ul>
 
       
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
       <ul class="navbar-nav mx-auto" *ngIf="user$ | async as user; else login">
         
         <li class="nav-item">
@@ -29,14 +62,49 @@
           <div *ngIf="isAdmin">
             <li class="nav-item"> 
               <a href="/admin" class="nav-link"><h2>Admin page</h2></a>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+      <ul class="navbar-nav mx-auto" *ngIf="user$ | async as user; else login">
+        <li class="nav-item " *ngIf="user">
+          <a href="#"class="nav-link" (click)= "onLogout()" >Logout </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">{{ user?.email }}</a>
+        </li>
+<<<<<<< HEAD
+        <div *ngIf="isAdmin">
+          <li class="nav-item" >
+            <a href="#" class="nav-link" routerLink="/admin">Admin Page</a>
+          </li>
+        </div>
+=======
+        <li>
+          <div *ngIf="isAdmin">
+            <li class="nav-item"> 
+              <a href="/admin" class="nav-link">Admin page</a>
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             </li>
           </div>
         </li>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         <li class="nav-item " *ngIf="user">
           <a href="#"class="nav-link" (click)= "onLogout()"> <h2>Logout</h2> </a>
         </li>
 
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> ef1853e44a6a0f8843f92faa117df829b4914543
+>>>>>>> 109815b27124bb46d4c0b64eb1da8147e9f5fd1e
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
       </ul>
       <ng-template #login>
         <ul class="navbar-nav mx-auto">

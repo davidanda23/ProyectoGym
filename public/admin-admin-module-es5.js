@@ -85155,15 +85155,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var lodash_es__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! lodash-es */
     "./node_modules/lodash-es/lodash.js");
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
     /** @type {?} */
 
 
     var defaultColors = [[255, 99, 132], [54, 162, 235], [255, 206, 86], [231, 233, 237], [75, 192, 192], [151, 187, 205], [220, 220, 220], [247, 70, 74], [70, 191, 189], [253, 180, 92], [148, 159, 177], [77, 83, 96]];
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
@@ -85175,6 +85182,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
      * @param {?} index
      * @param {?} count
      * @return {?}
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * Generate colors by chart type
+     * @param {?} chartType
+     * @param {?} index
+     * @param {?} count
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
     function getColors(chartType, index, count) {
@@ -85204,29 +85224,49 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
       throw new Error("getColors - Unsupported chart type ".concat(chartType));
     }
+<<<<<<< HEAD
     /**
      * @param {?} colour
      * @param {?} alpha
      * @return {?}
+=======
+    /**
+     * @param {?} colour
+     * @param {?} alpha
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
     function rgba(colour, alpha) {
       return 'rgba(' + colour.concat(alpha).join(',') + ')';
     }
+<<<<<<< HEAD
     /**
      * @param {?} min
      * @param {?} max
      * @return {?}
+=======
+    /**
+     * @param {?} min
+     * @param {?} max
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
+<<<<<<< HEAD
     /**
      * @param {?} colors
      * @return {?}
+=======
+    /**
+     * @param {?} colors
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -85240,9 +85280,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         pointHoverBorderColor: rgba(colors, 0.8)
       };
     }
+<<<<<<< HEAD
     /**
      * @param {?} colors
      * @return {?}
+=======
+    /**
+     * @param {?} colors
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -85254,126 +85300,215 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         hoverBorderColor: rgba(colors, 1)
       };
     }
+<<<<<<< HEAD
     /**
      * @param {?} colors
      * @return {?}
+=======
+    /**
+     * @param {?} colors
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
     function formatPieColors(colors) {
       return {
         backgroundColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 0.6);
         }),
         borderColor: colors.map(
+<<<<<<< HEAD
         /**
         * @return {?}
+=======
+        /**
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function () {
           return '#fff';
         }),
         pointBackgroundColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 1);
         }),
         pointBorderColor: colors.map(
+<<<<<<< HEAD
         /**
         * @return {?}
+=======
+        /**
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function () {
           return '#fff';
         }),
         pointHoverBackgroundColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 1);
         }),
         pointHoverBorderColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 1);
         })
       };
     }
+<<<<<<< HEAD
     /**
      * @param {?} colors
      * @return {?}
+=======
+    /**
+     * @param {?} colors
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
     function formatPolarAreaColors(colors) {
       return {
         backgroundColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 0.6);
         }),
         borderColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 1);
         }),
         hoverBackgroundColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 0.8);
         }),
         hoverBorderColor: colors.map(
+<<<<<<< HEAD
         /**
         * @param {?} color
         * @return {?}
+=======
+        /**
+        * @param {?} color
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (color) {
           return rgba(color, 1);
         })
       };
     }
+<<<<<<< HEAD
     /**
      * @return {?}
+=======
+    /**
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
     function getRandomColor() {
       return [getRandomInt(0, 255), getRandomInt(0, 255), getRandomInt(0, 255)];
     }
+<<<<<<< HEAD
     /**
      * Generate colors for line|bar charts
      * @param {?} index
      * @return {?}
+=======
+    /**
+     * Generate colors for line|bar charts
+     * @param {?} index
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
     function generateColor(index) {
       return defaultColors[index] || getRandomColor();
     }
+<<<<<<< HEAD
     /**
      * Generate colors for pie|doughnut charts
      * @param {?} count
      * @return {?}
+=======
+    /**
+     * Generate colors for pie|doughnut charts
+     * @param {?} count
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -85387,9 +85522,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
       return colorsArr;
     }
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -85400,9 +85541,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.pColorschemesOptions = {};
         this.colorschemesOptions = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]({});
       }
+<<<<<<< HEAD
       /**
        * @param {?} options
        * @return {?}
+=======
+      /**
+       * @param {?} options
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
 
@@ -85412,8 +85559,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.pColorschemesOptions = options;
           this.colorschemesOptions.next(options);
         }
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85462,9 +85614,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         return [];
       }, null);
     })();
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
     /** @enum {number} */
@@ -85480,9 +85638,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     UpdateType[UpdateType.Refresh] = 'Refresh';
 
     var BaseChartDirective = /*#__PURE__*/function () {
+<<<<<<< HEAD
       /**
        * @param {?} element
        * @param {?} themeService
+=======
+      /**
+       * @param {?} element
+       * @param {?} themeService
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
       function BaseChartDirective(element, themeService) {
         _classCallCheck(this, BaseChartDirective);
@@ -85508,18 +85672,30 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         };
         this.subs = [];
       }
+<<<<<<< HEAD
       /**
        * Register a plugin.
        * @param {?} plugin
        * @return {?}
+=======
+      /**
+       * Register a plugin.
+       * @param {?} plugin
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
 
       _createClass(BaseChartDirective, [{
         key: "ngOnInit",
 
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
         value: function ngOnInit() {
           var _this = this;
@@ -85527,18 +85703,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.ctx = this.element.nativeElement.getContext('2d');
           this.refresh();
           this.subs.push(this.themeService.colorschemesOptions.subscribe(
+<<<<<<< HEAD
           /**
           * @param {?} r
           * @return {?}
+=======
+          /**
+          * @param {?} r
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (r) {
             return _this.themeChanged(r);
           }));
         }
+<<<<<<< HEAD
         /**
          * @private
          * @param {?} options
          * @return {?}
+=======
+        /**
+         * @private
+         * @param {?} options
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85546,8 +85735,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function themeChanged(options) {
           this.refresh();
         }
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85565,9 +85759,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           /** @type {?} */
 
           var wantUpdate =
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function wantUpdate(x) {
             updateRequired = x > updateRequired ? x : updateRequired;
@@ -85595,18 +85795,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           if (this.datasets && this.datasets.filter(
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} i
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} i
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (x, i) {
             return x.data !== _this2.old.datasetsDataObjects[i];
           }).length) {
             this.old.datasetsDataObjects = this.datasets.map(
+<<<<<<< HEAD
             /**
             * @param {?} x
             * @return {?}
+=======
+            /**
+            * @param {?} x
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (x) {
               return x.data;
@@ -85615,18 +85828,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           if (this.datasets && this.datasets.filter(
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} i
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} i
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (x, i) {
             return x.data.length !== _this2.old.datasetsDataLengths[i];
           }).length) {
             this.old.datasetsDataLengths = this.datasets.map(
+<<<<<<< HEAD
             /**
             * @param {?} x
             * @return {?}
+=======
+            /**
+            * @param {?} x
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (x) {
               return x.data.length;
@@ -85642,18 +85868,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           if (this.colors && this.colors.filter(
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} i
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} i
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (x, i) {
             return !_this2.colorsEqual(x, _this2.old.colors[i]);
           }).length) {
             this.old.colors = this.colors.map(
+<<<<<<< HEAD
             /**
             * @param {?} x
             * @return {?}
+=======
+            /**
+            * @param {?} x
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (x) {
               return _this2.copyColor(x);
@@ -85668,18 +85907,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           if (this.labels && this.labels.filter(
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} i
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} i
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (x, i) {
             return !_this2.labelsEqual(x, _this2.old.labels[i]);
           }).length) {
             this.old.labels = this.labels.map(
+<<<<<<< HEAD
             /**
             * @param {?} x
             * @return {?}
+=======
+            /**
+            * @param {?} x
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (x) {
               return _this2.copyLabel(x);
@@ -85712,9 +85964,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               break;
           }
         }
+<<<<<<< HEAD
         /**
          * @param {?} a
          * @return {?}
+=======
+        /**
+         * @param {?} a
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85726,28 +85984,48 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           return a;
         }
+<<<<<<< HEAD
         /**
          * @param {?} a
          * @param {?} b
          * @return {?}
+=======
+        /**
+         * @param {?} a
+         * @param {?} b
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
         key: "labelsEqual",
         value: function labelsEqual(a, b) {
           return Array.isArray(a) === Array.isArray(b) && (Array.isArray(a) || a === b) && (!Array.isArray(a) || a.length === b.length) && (!Array.isArray(a) || a.filter(
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} i
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} i
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (x, i) {
             return x !== b[i];
           }).length === 0);
         }
+<<<<<<< HEAD
         /**
          * @param {?} a
          * @return {?}
+=======
+        /**
+         * @param {?} a
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85778,10 +86056,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           return rc;
         }
+<<<<<<< HEAD
         /**
          * @param {?} a
          * @param {?} b
          * @return {?}
+=======
+        /**
+         * @param {?} a
+         * @param {?} b
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85793,8 +86078,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           return !a || a.backgroundColor === b.backgroundColor && a.borderWidth === b.borderWidth && a.borderColor === b.borderColor && a.borderCapStyle === b.borderCapStyle && a.borderDash === b.borderDash && a.borderDashOffset === b.borderDashOffset && a.borderJoinStyle === b.borderJoinStyle && a.pointBorderColor === b.pointBorderColor && a.pointBackgroundColor === b.pointBackgroundColor && a.pointBorderWidth === b.pointBorderWidth && a.pointRadius === b.pointRadius && a.pointHoverRadius === b.pointHoverRadius && a.pointHitRadius === b.pointHitRadius && a.pointHoverBackgroundColor === b.pointHoverBackgroundColor && a.pointHoverBorderColor === b.pointHoverBorderColor && a.pointHoverBorderWidth === b.pointHoverBorderWidth && a.pointStyle === b.pointStyle && a.hoverBackgroundColor === b.hoverBackgroundColor && a.hoverBorderColor === b.hoverBorderColor && a.hoverBorderWidth === b.hoverBorderWidth;
         }
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85803,10 +86093,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var _this3 = this;
 
           this.datasets.forEach(
+<<<<<<< HEAD
           /**
           * @param {?} elm
           * @param {?} index
           * @return {?}
+=======
+          /**
+          * @param {?} elm
+          * @param {?} index
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (elm, index) {
             if (_this3.colors && _this3.colors[index]) {
@@ -85816,9 +86113,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             }
           });
         }
+<<<<<<< HEAD
         /**
          * @param {?} changes
          * @return {?}
+=======
+        /**
+         * @param {?} changes
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85829,9 +86132,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           /** @type {?} */
 
           var wantUpdate =
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function wantUpdate(x) {
             updateRequired = x > updateRequired ? x : updateRequired;
@@ -85882,8 +86191,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               break;
           }
         }
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85895,18 +86209,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           this.subs.forEach(
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (x) {
             return x.unsubscribe();
           });
         }
+<<<<<<< HEAD
         /**
          * @param {?=} duration
          * @param {?=} lazy
          * @return {?}
+=======
+        /**
+         * @param {?=} duration
+         * @param {?=} lazy
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85916,10 +86243,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return this.chart.update(duration, lazy);
           }
         }
+<<<<<<< HEAD
         /**
          * @param {?} index
          * @param {?} hidden
          * @return {?}
+=======
+        /**
+         * @param {?} index
+         * @param {?} hidden
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85928,9 +86262,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           this.chart.getDatasetMeta(index).hidden = hidden;
           this.chart.update();
         }
+<<<<<<< HEAD
         /**
          * @param {?} index
          * @return {?}
+=======
+        /**
+         * @param {?} index
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85938,8 +86278,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function isDatasetHidden(index) {
           return this.chart.getDatasetMeta(index).hidden;
         }
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85947,8 +86292,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function toBase64Image() {
           return this.chart.toBase64Image();
         }
+<<<<<<< HEAD
         /**
          * @return {?}
+=======
+        /**
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -85973,10 +86323,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           if (!options.hover.onHover) {
             options.hover.onHover =
+<<<<<<< HEAD
             /**
             * @param {?} event
             * @param {?} active
             * @return {?}
+=======
+            /**
+            * @param {?} event
+            * @param {?} active
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (event, active) {
               if (active && !active.length) {
@@ -85992,10 +86349,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           if (!options.onClick) {
             options.onClick =
+<<<<<<< HEAD
             /**
             * @param {?=} event
             * @param {?=} active
             * @return {?}
+=======
+            /**
+            * @param {?=} event
+            * @param {?=} active
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (event, active) {
               _this4.chartClick.emit({
@@ -86021,9 +86385,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           };
           return chartConfig;
         }
+<<<<<<< HEAD
         /**
          * @param {?} ctx
          * @return {?}
+=======
+        /**
+         * @param {?} ctx
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86035,11 +86405,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var chartConfig = this.getChartConfiguration();
           return new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, chartConfig);
         }
+<<<<<<< HEAD
         /**
          * @param {?} options
          * @param {?} overrides
          * @param {?=} level
          * @return {?}
+=======
+        /**
+         * @param {?} options
+         * @param {?} overrides
+         * @param {?=} level
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86057,9 +86435,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           var keysToUpdate = Object.keys(overrides);
           keysToUpdate.forEach(
+<<<<<<< HEAD
           /**
           * @param {?} key
           * @return {?}
+=======
+          /**
+          * @param {?} key
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (key) {
             if (Array.isArray(overrides[key])) {
@@ -86068,9 +86452,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
               if (arrayElements) {
                 arrayElements.forEach(
+<<<<<<< HEAD
                 /**
                 * @param {?} r
                 * @return {?}
+=======
+                /**
+                * @param {?} r
+                * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
                 */
                 function (r) {
                   _this5.smartMerge(r, overrides[key][0], level + 1);
@@ -86091,10 +86481,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return options;
           }
         }
+<<<<<<< HEAD
         /**
          * @private
          * @param {?} label
          * @return {?}
+=======
+        /**
+         * @private
+         * @param {?} label
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86102,10 +86499,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function isMultiLineLabel(label) {
           return Array.isArray(label);
         }
+<<<<<<< HEAD
         /**
          * @private
          * @param {?} label
          * @return {?}
+=======
+        /**
+         * @private
+         * @param {?} label
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86121,19 +86525,32 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return label;
           }
         }
+<<<<<<< HEAD
         /**
          * @private
          * @param {?} datasets
          * @return {?}
+=======
+        /**
+         * @private
+         * @param {?} datasets
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
         key: "propagateDatasetsToData",
         value: function propagateDatasetsToData(datasets) {
           this.data = this.datasets.map(
+<<<<<<< HEAD
           /**
           * @param {?} r
           * @return {?}
+=======
+          /**
+          * @param {?} r
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (r) {
             return r.data;
@@ -86145,10 +86562,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           this.updateColors();
         }
+<<<<<<< HEAD
         /**
          * @private
          * @param {?} newDataValues
          * @return {?}
+=======
+        /**
+         * @private
+         * @param {?} newDataValues
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86159,20 +86583,34 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           if (this.isMultiDataSet(newDataValues)) {
             if (this.datasets && newDataValues.length === this.datasets.length) {
               this.datasets.forEach(
+<<<<<<< HEAD
               /**
               * @param {?} dataset
               * @param {?} i
               * @return {?}
+=======
+              /**
+              * @param {?} dataset
+              * @param {?} i
+              * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
               */
               function (dataset, i) {
                 dataset.data = newDataValues[i];
               });
             } else {
               this.datasets = newDataValues.map(
+<<<<<<< HEAD
               /**
               * @param {?} data
               * @param {?} index
               * @return {?}
+=======
+              /**
+              * @param {?} data
+              * @param {?} index
+              * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
               */
               function (data, index) {
                 return {
@@ -86202,10 +86640,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           this.updateColors();
         }
+<<<<<<< HEAD
         /**
          * @private
          * @param {?} data
          * @return {?}
+=======
+        /**
+         * @private
+         * @param {?} data
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86213,9 +86658,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function isMultiDataSet(data) {
           return Array.isArray(data[0]);
         }
+<<<<<<< HEAD
         /**
          * @private
          * @return {?}
+=======
+        /**
+         * @private
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86236,9 +86687,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return this.datasets;
           }
         }
+<<<<<<< HEAD
         /**
          * @private
          * @return {?}
+=======
+        /**
+         * @private
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86264,9 +86721,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function registerPlugin(plugin) {
           chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"].plugins.register(plugin);
         }
+<<<<<<< HEAD
         /**
          * @param {?} plugin
          * @return {?}
+=======
+        /**
+         * @param {?} plugin
+         * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
          */
 
       }, {
@@ -86394,9 +86857,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }]
       });
     })();
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -86433,6 +86902,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }]
       }], null, null);
     })();
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
@@ -86446,6 +86916,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
     // tslint:disable:variable-name
     // tslint:disable:no-var-keyword
@@ -86455,8 +86940,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     // tslint:disable:object-literal-shorthand
     // tslint:disable:space-before-function-paren
 
+<<<<<<< HEAD
     /**
      * @return {?}
+=======
+    /**
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -86472,9 +86962,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /** @type {?} */
 
       var legend = plugins.filter(
+<<<<<<< HEAD
       /**
       * @param {?} p
       * @return {?}
+=======
+      /**
+      * @param {?} p
+      * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
       */
       function (p) {
         return p.id === 'legend';
@@ -86490,17 +86986,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /** @type {?} */
 
       var valueOrDefault = helpers.valueOrDefault;
+<<<<<<< HEAD
       /**
        * @param {?} labelOpts
        * @param {?} fontSize
        * @return {?}
+=======
+      /**
+       * @param {?} labelOpts
+       * @param {?} fontSize
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
       function getBoxWidth(labelOpts, fontSize) {
         return labelOpts.usePointStyle && labelOpts.boxWidth > fontSize ? fontSize : labelOpts.boxWidth;
       }
+<<<<<<< HEAD
       /**
        * @return {?}
+=======
+      /**
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
 
@@ -86549,6 +87057,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
         var getMaxLineWidth =
+<<<<<<< HEAD
         /**
         * @param {?} textLines
         * @return {?}
@@ -86558,14 +87067,32 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           /**
           * @param {?} textLine
           * @return {?}
+=======
+        /**
+        * @param {?} textLines
+        * @return {?}
+        */
+        function getMaxLineWidth(textLines) {
+          return textLines.map(
+          /**
+          * @param {?} textLine
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (textLine) {
             return ctx.measureText(textLine).width;
           }).reduce(
+<<<<<<< HEAD
           /**
           * @param {?} acc
           * @param {?} v
           * @return {?}
+=======
+          /**
+          * @param {?} acc
+          * @param {?} v
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (acc, v) {
             return v > acc ? v : acc;
@@ -86594,10 +87121,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             ctx.textAlign = 'left';
             ctx.textBaseline = 'top';
             helpers.each(me.legendItems,
+<<<<<<< HEAD
             /**
             * @param {?} legendItem
             * @param {?} i
             * @return {?}
+=======
+            /**
+            * @param {?} legendItem
+            * @param {?} i
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (legendItem, i) {
               /** @type {?} */
@@ -86640,10 +87174,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             });
             lineHeights.push(currentLineHeight);
             minSize.height += lineHeights.reduce(
+<<<<<<< HEAD
             /**
             * @param {?} acc
             * @param {?} v
             * @return {?}
+=======
+            /**
+            * @param {?} acc
+            * @param {?} v
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (acc, v) {
               return acc + v;
@@ -86670,10 +87211,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             var columnIndex = 0;
             helpers.each(me.legendItems,
+<<<<<<< HEAD
             /**
             * @param {?} legendItem
             * @param {?} i
             * @return {?}
+=======
+            /**
+            * @param {?} legendItem
+            * @param {?} i
+            * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
             */
             function (legendItem, i) {
               /** @type {?} */
@@ -86724,8 +87272,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         me.width = minSize.width;
         me.height = minSize.height;
       }
+<<<<<<< HEAD
       /**
        * @return {?}
+=======
+      /**
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
 
@@ -86801,11 +87354,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           /** @type {?} */
 
           var drawLegendBox =
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} y
           * @param {?} legendItem
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} y
+          * @param {?} legendItem
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function drawLegendBox(x, y, legendItem) {
             if (isNaN(boxWidth) || boxWidth <= 0) {
@@ -86858,11 +87419,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           var drawStrikeThrough =
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} y
           * @param {?} w
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} y
+          * @param {?} w
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function drawStrikeThrough(x, y, w) {
             ctx.beginPath();
@@ -86875,12 +87444,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           var drawCrossOver =
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} y
           * @param {?} w
           * @param {?} h
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} y
+          * @param {?} w
+          * @param {?} h
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function drawCrossOver(x, y, w, h) {
             ctx.beginPath();
@@ -86895,12 +87473,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           var fillText =
+<<<<<<< HEAD
           /**
           * @param {?} x
           * @param {?} y
           * @param {?} legendItem
           * @param {?} textWidth
           * @return {?}
+=======
+          /**
+          * @param {?} x
+          * @param {?} y
+          * @param {?} legendItem
+          * @param {?} textWidth
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function fillText(x, y, legendItem, textWidth) {
             /** @type {?} */
@@ -86914,10 +87501,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             if (helpers.isArray(legendItem.text)) {
               helpers.each(legendItem.text,
+<<<<<<< HEAD
               /**
               * @param {?} textLine
               * @param {?} index
               * @return {?}
+=======
+              /**
+              * @param {?} textLine
+              * @param {?} index
+              * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
               */
               function (textLine, index) {
                 /** @type {?} */
@@ -86940,10 +87534,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
           var alignmentOffset =
+<<<<<<< HEAD
           /**
           * @param {?} dimension
           * @param {?} blockSize
           * @return {?}
+=======
+          /**
+          * @param {?} dimension
+          * @param {?} blockSize
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function alignmentOffset(dimension, blockSize) {
             switch (opts.align) {
@@ -86979,10 +87580,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           helpers.each(me.legendItems,
+<<<<<<< HEAD
           /**
           * @param {?} legendItem
           * @param {?} i
           * @return {?}
+=======
+          /**
+          * @param {?} legendItem
+          * @param {?} i
+          * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
           */
           function (legendItem, i) {
             /** @type {?} */
@@ -87008,17 +87616,30 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
             if (helpers.isArray(legendItem.text)) {
               textWidth = legendItem.text.map(
+<<<<<<< HEAD
               /**
               * @param {?} textLine
               * @return {?}
+=======
+              /**
+              * @param {?} textLine
+              * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
               */
               function (textLine) {
                 return ctx.measureText(textLine).width;
               }).reduce(
+<<<<<<< HEAD
               /**
               * @param {?} acc
               * @param {?} v
               * @return {?}
+=======
+              /**
+              * @param {?} acc
+              * @param {?} v
+              * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
               */
               function (acc, v) {
                 return v > acc ? v : acc;
@@ -87058,9 +87679,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       }
     }
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
     // tslint:disable:variable-name
     // tslint:disable:no-var-keyword
@@ -87070,8 +87697,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     // tslint:disable:object-literal-shorthand
     // tslint:disable:space-before-function-paren
 
+<<<<<<< HEAD
     /**
      * @return {?}
+=======
+    /**
+     * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
 
 
@@ -87085,20 +87717,35 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /** @type {?} */
 
       var helpers = Chart.helpers;
+<<<<<<< HEAD
       /**
        * @param {?} vm
        * @param {?} align
        * @return {?}
+=======
+      /**
+       * @param {?} vm
+       * @param {?} align
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
       function getAlignedX(vm, align) {
         return align === 'center' ? vm.x + vm.width / 2 : align === 'right' ? vm.x + vm.width - vm.xPadding : vm.x + vm.xPadding;
       }
+<<<<<<< HEAD
       /**
        * @param {?} pt
        * @param {?} vm
        * @param {?} ctx
        * @return {?}
+=======
+      /**
+       * @param {?} pt
+       * @param {?} vm
+       * @param {?} ctx
+       * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
        */
 
 
@@ -87137,9 +87784,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         /** @type {?} */
 
         var fillLineOfText =
+<<<<<<< HEAD
         /**
         * @param {?} line
         * @return {?}
+=======
+        /**
+        * @param {?} line
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function fillLineOfText(line) {
           ctx.fillText(line, pt.x + xLinePadding, pt.y);
@@ -87152,10 +87805,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         xLinePadding = drawColorBoxes && bodyAlign !== 'right' ? bodyAlign === 'center' ? bodyFontSize / 2 + 1 : bodyFontSize + 2 : 0; // Draw body lines now
 
         helpers.each(body,
+<<<<<<< HEAD
         /**
         * @param {?} bodyItem
         * @param {?} i
         * @return {?}
+=======
+        /**
+        * @param {?} bodyItem
+        * @param {?} i
+        * @return {?}
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
         */
         function (bodyItem, i) {
           textColor = vm.labelTextColors[i];
@@ -87186,6 +87846,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         pt.y -= bodySpacing; // Remove last body spacing
       }
     }
+<<<<<<< HEAD
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
@@ -87194,6 +87855,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /**
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+=======
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+>>>>>>> 25b39681f4a3bbce1c1eceb563ebefd002298ac4
      */
     //# sourceMappingURL=ng2-charts.js.map
 
