@@ -1,0 +1,72 @@
+<article>
+  <h1>Entrenadores</h1>
+  <div class="card-columns m-12 animated fadeIn">
+    <div class="card puntero">
+      <img class="card-img-top" src="../../assets/arnold.jpg" width="1000" height="300" alt="Card image cap">
+      <div class="card-body">
+        <h1 class="card-title">Arnold S.</h1>
+        <h3>Clases de Pesas</h3>
+
+        
+        <p class="card-text">
+          <span (click)="entregarQRCode(1)" class="btn btn-primary">Twitter</span>
+        </p>
+        <p>
+          <span (click)="entregarQRCode(2)" class="btn btn-primary">YouTube</span>
+        </p>
+        <p>
+          <span (click)="entregarQRCode(3)" class="btn btn-primary">FaceBook</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="card puntero">
+      <img class="card-img-top" src="../../../assets/drago.jpg" width="800" height="300" alt="Card image cap">
+      <div class="card-body">
+        <h1 class="card-title">Ivan Drago</h1>
+        <h3>Clases de Boxeo</h3>
+
+        <!--<a (click)="entregarQRCode(1)" class="btn btn-primary">Consigue su youtube!</a>-->
+        <p class="card-text">
+          <span (click)="entregarQRCode(4)" class="btn btn-primary">Twitter</span>
+        </p>
+        <p>
+          <span (click)="entregarQRCode(5)" class="btn btn-primary">YouTube</span>
+        </p>
+        <p>
+          <span (click)="entregarQRCode(6)" class="btn btn-primary">FaceBook</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="card puntero">
+      <img class="card-img-top" src="../../assets/weaver.jpg" width="800" height="300" alt="Card image cap">
+      <div class="card-body">
+        <h1 class="card-title">LeBron James</h1>
+        <h3>Clases de Cardio</h3>
+
+        <!--<a (click)="entregarQRCode(1)" class="btn btn-primary">Consigue su youtube!</a>-->
+        <p class="card-text">
+          <span (click)="entregarQRCode(4)" class="btn btn-primary">Twitter</span>
+        </p>
+        <p>
+          <span (click)="entregarQRCode(5)" class="btn btn-primary">YouTube</span>
+        </p>
+        <p>
+          <span (click)="entregarQRCode(6)" class="btn btn-primary">FaceBook</span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div style="text-align:center">
+    <h1>
+      Escanea el codigo QR para ir a la página
+    </h1>
+
+    <ngx-qrcode [elementType]="elementType" [value]="value" cssClass="aclass" errorCorrectionLevel="L">
+    </ngx-qrcode>
+  </div>
+</article>
